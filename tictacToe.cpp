@@ -47,7 +47,7 @@ int main(){
         cout << "Player "<< player << ", enter row (0-2) and column (0-2):"; 
         while(true){
             cin >> row >> col;
-            if((row < 0 || row > 2 || col < 0 || col > 2) ||board.at(row).at(col) != ' ' ){
+            if((row < 0 || row > 2 || col < 0 || col > 2) || board.at(row).at(col) != ' ' ){
                 cout << "Invalid move! try again:";
             }
             else break;
